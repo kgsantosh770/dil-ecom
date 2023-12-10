@@ -63,7 +63,7 @@ const Homepage = () => {
                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua."
             />
-            <CardsGrid categories={categoriesData} />
+            <CardsGrid cards={categoriesData} />
         </div>
     )
 }
