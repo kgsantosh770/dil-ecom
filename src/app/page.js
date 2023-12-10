@@ -1,7 +1,9 @@
+import Homepage from './pages/homepage'
+
 export default function Home() {
   return (
     <main>
-      Hello Next World
+      <Homepage />
     </main>
   )
 }
