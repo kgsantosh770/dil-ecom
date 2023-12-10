@@ -61,7 +61,7 @@ const Header = () => {
                         ) : navbar
                 }
             </header>
-            <div className='h-16'></div>
+            <div className='h-16 lg:h-20'></div>
         </>
     )
 }
