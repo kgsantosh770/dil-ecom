@@ -39,27 +39,30 @@ const Header = () => {
     )
 
     return (
-        <header className="px-4 lg:pr-8 py-3 flex align-center justify-between">
-            <div className="w-14 h-12 relative">
-                <Image src={logoImageUrl} alt="logo" objectFit="cover" layout="fill" />
-            </div>
-            {
-                isMobile ?
-                    (
-                        <>
-                            <button onClick={() => setDrawerHidden(prev => !prev)}>
-                                <div className="w-7 h-1 bg-black mb-1"></div>
-                                <div className="w-7 h-1 bg-black mb-1"></div>
-                                <div className={`${drawerHidden ? 'w-7' : 'w-6'} h-1 bg-black mb-1`}></div>
-                            </button>
-                            <div className={`fixed bg-primary text-white top-16 p-4 w-[100vw] h-[90vh] z-10 transition-all duration-1000 ease-in-out ${drawerHidden ? 'left-full' : 'left-0'}`}>
-                                {navbar}
-                            </div>
-                        </>
+        <>
+            <header className="fixed w-full top-0 left-0 z-10 bg-white px-4 lg:pr-8 py-3 flex align-center justify-between">
+                <div className="w-14 h-12 relative">
+                    <Image src={logoImageUrl} alt="logo" objectFit="cover" layout="fill" />
+                </div>
+                {
+                    isMobile ?
+                        (
+                            <>
+                                <button onClick={() => setDrawerHidden(prev => !prev)}>
+                                    <div className="w-7 h-1 bg-black mb-1"></div>
+                                    <div className="w-7 h-1 bg-black mb-1"></div>
+                                    <div className={`${drawerHidden ? 'w-7' : 'w-6'} h-1 bg-black mb-1`}></div>
+                                </button>
+                                <div className={`fixed bg-primary text-white top-16 p-4 w-[100vw] h-[90vh] z-10 transition-all duration-1000 ease-in-out ${drawerHidden ? 'left-full' : 'left-0'}`}>
+                                    {navbar}
+                                </div>
+                            </>
 
-                    ) : navbar
-            }
-        </header>
+                        ) : navbar
+                }
+            </header>
+            <div className='h-16'></div>
+        </>
     )
 }
 
