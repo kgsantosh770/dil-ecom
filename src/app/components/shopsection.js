@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const ShopSection = (props) => {
     return (
-        <section className={`p-4 text-center ${props.className}`}>
+        <section className={`text-center ${props.className}`}>
             <h1 className={`text-5xl font-extrabold ${props.optionalHeadline ? 'mb-1' : 'mb-5'}`}>{props.headline}</h1>
             {
                 props.optionalHeadline &&
@@ -18,8 +18,8 @@ const ShopSection = (props) => {
                 <Button text={props.btnText} />
             }
             {
-                props.images.length > 0 &&
-                <div className='mt-8 lg:mt-12 flex gap-3 lg:gap-10 lg:justify-center'>
+                props.images && props.images.length > 0 &&
+                <div className='mt-8 lg:mt-12 flex gap-3 lg:gap-10 lg:justify-center overflow-x-auto'>
                     {
                         props.images.map((imageUrl, index) => (
                             <div key={index}
