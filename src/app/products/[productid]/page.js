@@ -21,7 +21,7 @@ const Product = ({ params }) => {
                 {
                     product.images.map((image, index) => (
                         <div key={index} className="w-full min-w-[10rem] h-full min-h-[10rem] relative border shadow-md">
-                            <Image src={image} alt="food" fill objectFit="contain" />
+                            <Image src={image} alt="food" fill objectFit="fill" />
                         </div>
                     ))
                 }

@@ -7,7 +7,7 @@ export default function Home() {
   const categories = getCategories();
   return (
     <main>
-      <div className="bg-lightgrey px-4 lg:px-12">
+      <div className="bg-lightgrey px-2 lg:px-12 pb-8">
         <ShopSection
           className="pt-12"
           headline="Good food Good Life"

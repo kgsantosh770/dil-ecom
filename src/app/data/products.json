@@ -4,28 +4,28 @@
         "id": 1,
         "name": "Fruits",
         "image": "https://media.istockphoto.com/id/529664572/photo/fruit-background.jpg?s=612x612&w=0&k=20&c=K7V0rVCGj8tvluXDqxJgu0AdMKF8axP0A15P-8Ksh3I=",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "productIds": [101, 102, 103]
       },
       {
         "id": 2,
         "name": "Vegetables",
         "image": "https://media.istockphoto.com/id/589415708/photo/fresh-fruits-and-vegetables.jpg?s=612x612&w=0&k=20&c=aBFGUU-98pnoht73co8r2TZIKF3MDtBBu9KSxtxK_C0=",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "productIds": [104, 105, 106]
       },
       {
         "id": 3,
         "name": "Dairy",
         "image": "https://media.istockphoto.com/id/544807136/photo/various-fresh-dairy-products.jpg?s=612x612&w=0&k=20&c=U5T70bi24itoTDive1CVonJbJ97ChyL2Pz1I2kOoSRo=",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "productIds": [107, 108, 109]
       },
       {
         "id": 4,
         "name": "Bakery",
         "image": "https://media.istockphoto.com/id/1308281369/photo/factory-for-the-production-of-bakery-products.jpg?s=612x612&w=0&k=20&c=fk7jQV20yQkZhVXBwE5xteK0aCuOchOKkDpKLR_i_Tk=",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         "productIds": [110, 111, 112]
       }
     ],

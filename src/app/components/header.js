@@ -14,6 +14,9 @@ const Header = () => {
     const navbar = (
         <nav>
             <ul className="mt-4 lg:flex lg:gap-8">
+                {isMobile && <li className="mb-6 lg:mb-0 text-lg lg:text-sm font-semibold lg:hover:text-primary">
+                    <a href="/">Home</a>
+                </li>}
                 <li className="mb-6 lg:mb-0 text-lg lg:text-sm font-semibold lg:hover:text-primary">
                     <a href="#">Organic Foods</a>
                 </li>
@@ -40,7 +43,7 @@ const Header = () => {
 
     return (
         <>
-            <header className="fixed w-full top-0 left-0 z-10 bg-white px-4 lg:pr-8 py-3 flex align-center justify-between">
+            <header className="fixed shadow-lg w-full top-0 left-0 z-10 bg-white px-4 lg:pr-8 py-3 flex align-center justify-between">
                 <a href="/" className="w-14 h-12 relative">
                     <Image src={logoImageUrl} alt="logo" objectFit="cover" layout="fill" />
                 </a>

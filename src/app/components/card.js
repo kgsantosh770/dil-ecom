@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Card = (props) => {      
     return (
-        <div className="flex flex-col border p-4 shadow-lg">
+        <div className="flex flex-col border py-4 px-2 shadow-lg">
             <div className="relative w-full h-full min-h-[12rem] lg:min-h-[20rem] rounded-sm overflow-hidden mb-2">
                 <Image src={props.image} alt="food" fill />
             </div>
