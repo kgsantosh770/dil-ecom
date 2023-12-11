@@ -1,8 +1,8 @@
 'use client';
 import { useState } from "react";
 import Image from "next/image";
-import Button from "../../components/button";
-import { getProduct } from '@/app/utils/getters';
+import Button from "../../_components/button";
+import { getProduct } from '@/app/_utils/getters';
 
 const Product = ({ params }) => {
     const [quantity, setQuantity] = useState(1);

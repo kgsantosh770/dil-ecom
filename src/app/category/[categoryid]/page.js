@@ -1,6 +1,6 @@
-import { getCategory, getProducts } from '@/app/utils/getters';
-import ShopSection from '@/app/components/shopsection'
-import CardsGrid from '@/app/components/cardsgrid'
+import { getCategory, getProducts } from '@/app/_utils/getters';
+import ShopSection from '@/app/_components/shopsection'
+import CardsGrid from '@/app/_components/cardsgrid'
 
 const Category = ({params}) => {
     const category = getCategory(params.categoryid);

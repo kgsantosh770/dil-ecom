@@ -1,5 +1,5 @@
-import bannerImageData from "../data/bannerImages.json";
-import productsData from "../data/products.json";
+import bannerImageData from "../_data/bannerImages.json";
+import productsData from "../_data/products.json";
 
 export function getBannerImages() {
     return bannerImageData.bannerImages;

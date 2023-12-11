@@ -1,6 +1,6 @@
-import { getBannerImages, getCategories } from "./utils/getters";
-import ShopSection from "./components/shopsection";
-import CardsGrid from "./components/cardsgrid";
+import { getBannerImages, getCategories } from "./_utils/getters";
+import ShopSection from "./_components/shopsection";
+import CardsGrid from "./_components/cardsgrid";
 
 export default function Home() {
   const bannerImages = getBannerImages();

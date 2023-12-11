@@ -1,5 +1,5 @@
 import { Plus_Jakarta_Sans } from 'next/font/google'
-import Header from './components/header'
+import Header from './_components/header'
 import './globals.css'
 
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
