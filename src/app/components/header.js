@@ -4,7 +4,7 @@ import Image from "next/image"
 
 const Header = () => {
     const logoImageUrl = 'https://dilfoods.in/wp-content/uploads/2023/04/Dil-Foods-new-logo.png';
-    const [isMobile, setIsMobile] = useState(false);
+    const [isMobile, setIsMobile] = useState(true);
     const [drawerHidden, setDrawerHidden] = useState(true);
 
     useEffect(() => {
@@ -41,9 +41,9 @@ const Header = () => {
     return (
         <>
             <header className="fixed w-full top-0 left-0 z-10 bg-white px-4 lg:pr-8 py-3 flex align-center justify-between">
-                <div className="w-14 h-12 relative">
+                <a href="/" className="w-14 h-12 relative">
                     <Image src={logoImageUrl} alt="logo" objectFit="cover" layout="fill" />
-                </div>
+                </a>
                 {
                     isMobile ?
                         (

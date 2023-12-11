@@ -1,0 +1,143 @@
+{
+    "categories": [
+      {
+        "id": 1,
+        "name": "Fruits",
+        "image": "https://media.istockphoto.com/id/529664572/photo/fruit-background.jpg?s=612x612&w=0&k=20&c=K7V0rVCGj8tvluXDqxJgu0AdMKF8axP0A15P-8Ksh3I=",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+        "productIds": [101, 102, 103]
+      },
+      {
+        "id": 2,
+        "name": "Vegetables",
+        "image": "https://media.istockphoto.com/id/589415708/photo/fresh-fruits-and-vegetables.jpg?s=612x612&w=0&k=20&c=aBFGUU-98pnoht73co8r2TZIKF3MDtBBu9KSxtxK_C0=",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.",
+        "productIds": [104, 105, 106]
+      },
+      {
+        "id": 3,
+        "name": "Dairy",
+        "image": "https://media.istockphoto.com/id/544807136/photo/various-fresh-dairy-products.jpg?s=612x612&w=0&k=20&c=U5T70bi24itoTDive1CVonJbJ97ChyL2Pz1I2kOoSRo=",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "productIds": [107, 108, 109]
+      },
+      {
+        "id": 4,
+        "name": "Bakery",
+        "image": "https://media.istockphoto.com/id/1308281369/photo/factory-for-the-production-of-bakery-products.jpg?s=612x612&w=0&k=20&c=fk7jQV20yQkZhVXBwE5xteK0aCuOchOKkDpKLR_i_Tk=",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "productIds": [110, 111, 112]
+      }
+    ],
+    "products": [
+      {
+        "id": 101,
+        "name": "Apple",
+        "description": "Fresh and juicy apples",
+        "images": ["https://media.istockphoto.com/id/834816218/photo/red-apple-fruit-with-half-and-green-leaf-isolated-on-white.jpg?s=612x612&w=0&k=20&c=CAwW2uRYUNm5HyEN4iWTSx-2E9EyqFp-7VS2n7wFnIo=","https://media.istockphoto.com/id/1214421019/photo/top-view-of-red-apple-in-a-bowl-on-table.jpg?s=612x612&w=0&k=20&c=HqdEtZHLPbRzNssl6JJ5G9bGVcHeRJVTri3jxN3X9Oo=","https://media.istockphoto.com/id/834816218/photo/red-apple-fruit-with-half-and-green-leaf-isolated-on-white.jpg?s=612x612&w=0&k=20&c=CAwW2uRYUNm5HyEN4iWTSx-2E9EyqFp-7VS2n7wFnIo=","https://media.istockphoto.com/id/1214421019/photo/top-view-of-red-apple-in-a-bowl-on-table.jpg?s=612x612&w=0&k=20&c=HqdEtZHLPbRzNssl6JJ5G9bGVcHeRJVTri3jxN3X9Oo="],
+        "price": 201.99,
+        "stock": 50,
+        "unit": "kg"
+      },
+      {
+        "id": 102,
+        "name": "Banana",
+        "description": "Ripe and sweet bananas",
+        "images": ["https://media.istockphoto.com/id/157375066/photo/banana.jpg?s=612x612&w=0&k=20&c=3v7si4IY-VZRIiUnG2fUodH2kIF4ipt06YnrtBCF3nc=", "https://media.istockphoto.com/id/636739634/photo/banana.jpg?s=612x612&w=0&k=20&c=pO0985tQi1LpWRlWqpRvbab8S5yxgnEOVcs5CHIlcDE=", "https://media.istockphoto.com/id/157375066/photo/banana.jpg?s=612x612&w=0&k=20&c=3v7si4IY-VZRIiUnG2fUodH2kIF4ipt06YnrtBCF3nc=", "https://media.istockphoto.com/id/636739634/photo/banana.jpg?s=612x612&w=0&k=20&c=pO0985tQi1LpWRlWqpRvbab8S5yxgnEOVcs5CHIlcDE="],
+        "price": 100,
+        "stock": 40,
+        "unit": "kg"
+      },
+      {
+        "id": 103,
+        "name": "Orange",
+        "description": "Citrusy and refreshing oranges",
+        "images": ["https://media.istockphoto.com/id/477836156/photo/orange-fruit-isolated-on-white.jpg?s=612x612&w=0&k=20&c=NQYciPqF0kRqnDMx7Vy96Qhtx2c37OiKPXtjMR3Oy-Y=", "https://media.istockphoto.com/id/174874581/photo/fresh-orange-and-slices.jpg?s=612x612&w=0&k=20&c=roAbkO4ofGKfv8pzKGl5GDK6OUVwVOBPmecE0a56g9k=", "https://media.istockphoto.com/id/477836156/photo/orange-fruit-isolated-on-white.jpg?s=612x612&w=0&k=20&c=NQYciPqF0kRqnDMx7Vy96Qhtx2c37OiKPXtjMR3Oy-Y=", "https://media.istockphoto.com/id/174874581/photo/fresh-orange-and-slices.jpg?s=612x612&w=0&k=20&c=roAbkO4ofGKfv8pzKGl5GDK6OUVwVOBPmecE0a56g9k="],
+        "price": 349.87,
+        "stock": 30,
+        "unit": "kg"
+      },
+      {
+        "id": 104,
+        "name": "Carrot",
+        "description": "Crunchy and nutritious carrots",
+        "images": ["https://media.istockphoto.com/id/166106089/photo/carrot-isolated.jpg?s=612x612&w=0&k=20&c=bWUuopSQ247cy0k6IzvVnrgixff496_HmIBjtiUzzDM=", "https://media.istockphoto.com/id/185275579/photo/bundles-of-organic-carrots-with-the-stems-still-attached.jpg?s=612x612&w=0&k=20&c=OIdIDUtDF9jxpCFnZlb7ld5tOj8pDMol1XIcfsHFlEk=", "https://media.istockphoto.com/id/166106089/photo/carrot-isolated.jpg?s=612x612&w=0&k=20&c=bWUuopSQ247cy0k6IzvVnrgixff496_HmIBjtiUzzDM=", "https://media.istockphoto.com/id/185275579/photo/bundles-of-organic-carrots-with-the-stems-still-attached.jpg?s=612x612&w=0&k=20&c=OIdIDUtDF9jxpCFnZlb7ld5tOj8pDMol1XIcfsHFlEk="],
+        "price": 34.9,
+        "stock": 60,
+        "unit": "kg"
+      },
+      {
+        "id": 105,
+        "name": "Broccoli",
+        "description": "Fresh and green broccoli",
+        "images": ["https://media.istockphoto.com/id/579165978/photo/broccoli.jpg?s=612x612&w=0&k=20&c=n7JyR5LPZFig5Q8hH_10t3NsO0h_ceDdWo3djc1LlpI=", "https://media.istockphoto.com/id/1364035705/photo/fresh-broccoli-on-white-background.jpg?s=612x612&w=0&k=20&c=fEcEq65rKBmT8PltpAyg_-na0WomTJ6S6m04uXQQtJs=", "https://media.istockphoto.com/id/579165978/photo/broccoli.jpg?s=612x612&w=0&k=20&c=n7JyR5LPZFig5Q8hH_10t3NsO0h_ceDdWo3djc1LlpI=", "https://media.istockphoto.com/id/1364035705/photo/fresh-broccoli-on-white-background.jpg?s=612x612&w=0&k=20&c=fEcEq65rKBmT8PltpAyg_-na0WomTJ6S6m04uXQQtJs="],
+        "price": 299,
+        "stock": 35,
+        "unit": "kg"
+      },
+      {
+        "id": 106,
+        "name": "Tomato",
+        "description": "Ripe and plump tomatoes",
+        "images": ["https://media.istockphoto.com/id/466175630/photo/tomato-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=ELzCVzaiRMgiO7A5zQLkuws0N_lvPxrgJWPn7C7BXz0=", "https://media.istockphoto.com/id/941825878/photo/tomato-with-slice-isolated-with-clipping-path.jpg?s=612x612&w=0&k=20&c=P3PQlDAxzgx5i1hGCHKEcBy-rZmqn4f5CZPggWnh9yQ=", "https://media.istockphoto.com/id/466175630/photo/tomato-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=ELzCVzaiRMgiO7A5zQLkuws0N_lvPxrgJWPn7C7BXz0=", "https://media.istockphoto.com/id/941825878/photo/tomato-with-slice-isolated-with-clipping-path.jpg?s=612x612&w=0&k=20&c=P3PQlDAxzgx5i1hGCHKEcBy-rZmqn4f5CZPggWnh9yQ="],
+        "price": 17.9,
+        "stock": 45,
+        "unit": "kg"
+      },
+      {
+        "id": 107,
+        "name": "Milk",
+        "description": "Fresh and nutritious milk",
+        "images": ["https://media.istockphoto.com/id/535489242/photo/pouring-milk-in-the-glass-on-the-background-of-nature.jpg?s=612x612&w=0&k=20&c=bqBubtMFs_kv9z0OZVLunl3NFTb_XAVKiw8v1hO1T80=", "https://media.istockphoto.com/id/854296630/photo/glass-of-milk-and-bottle-of-milk-on-the-wood-table.jpg?s=612x612&w=0&k=20&c=kPAzvagmpnzaBoUzRMxZ1_1mcsvGVbEOZG7pY_3b2Kc=", "https://media.istockphoto.com/id/535489242/photo/pouring-milk-in-the-glass-on-the-background-of-nature.jpg?s=612x612&w=0&k=20&c=bqBubtMFs_kv9z0OZVLunl3NFTb_XAVKiw8v1hO1T80=", "https://media.istockphoto.com/id/854296630/photo/glass-of-milk-and-bottle-of-milk-on-the-wood-table.jpg?s=612x612&w=0&k=20&c=kPAzvagmpnzaBoUzRMxZ1_1mcsvGVbEOZG7pY_3b2Kc="],
+        "price": 22.46,
+        "stock": 55,
+        "unit": "litre"
+      },
+      {
+        "id": 108,
+        "name": "Cheese",
+        "description": "Creamy and delicious cheese",
+        "images": ["https://media.istockphoto.com/id/178421857/photo/various-types-of-cheese.jpg?s=612x612&w=0&k=20&c=7OJWQOlQASFNmKmgAjf-QpCsIC4lhMylHyXvxBVOJRg=", "https://media.istockphoto.com/id/1127471287/photo/cheese-on-white.jpg?s=612x612&w=0&k=20&c=m8kJAfayGrBoqKceiwGAq7SaEDrbZCyPzklYOm3_MBk=", "https://media.istockphoto.com/id/178421857/photo/various-types-of-cheese.jpg?s=612x612&w=0&k=20&c=7OJWQOlQASFNmKmgAjf-QpCsIC4lhMylHyXvxBVOJRg=", "https://media.istockphoto.com/id/1127471287/photo/cheese-on-white.jpg?s=612x612&w=0&k=20&c=m8kJAfayGrBoqKceiwGAq7SaEDrbZCyPzklYOm3_MBk="],
+        "price": 43.99,
+        "stock": 25,
+        "unit": "kg"
+      },
+      {
+        "id": 109,
+        "name": "Yogurt",
+        "description": "Smooth and tangy yogurt",
+        "images": ["https://media.istockphoto.com/id/1008860374/photo/yogurt-in-bowl-on-rustic-black-table-photo-of-plain-natural-organic-yoghurt-close-up.jpg?s=612x612&w=0&k=20&c=sU5oKagNRme86nSAnIJZk0JGMcD_C0S1CrppolOA80g=", "https://media.istockphoto.com/id/1435026978/photo/green-bowl-of-greek-yogurt-and-fresh-berries-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=q-jG8QyL_Qy6PtYPpgVMZncBlUYwxdYJP2wxlm-4x6g=", "https://media.istockphoto.com/id/1008860374/photo/yogurt-in-bowl-on-rustic-black-table-photo-of-plain-natural-organic-yoghurt-close-up.jpg?s=612x612&w=0&k=20&c=sU5oKagNRme86nSAnIJZk0JGMcD_C0S1CrppolOA80g=", "https://media.istockphoto.com/id/1435026978/photo/green-bowl-of-greek-yogurt-and-fresh-berries-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=q-jG8QyL_Qy6PtYPpgVMZncBlUYwxdYJP2wxlm-4x6g="],
+        "price": 30.29,
+        "stock": 40,
+        "unit": "litre"
+      },
+      {
+        "id": 110,
+        "name": "Bread",
+        "description": "Freshly baked bread",
+        "images": ["https://media.istockphoto.com/id/995038782/photo/heap-of-bread.jpg?s=612x612&w=0&k=20&c=UoAcNzbbDx2ybqoEZWBaxBdy73W2NN3km8MKSci0cHk=", "https://media.istockphoto.com/id/157587362/photo/detailed-close-up-of-sliced-grain-bread-on-white-background.jpg?s=612x612&w=0&k=20&c=nr5f0Mb3Dx9RP_LmKKwlo6IlzDebfIdCbnERsnoSG94=", "https://media.istockphoto.com/id/995038782/photo/heap-of-bread.jpg?s=612x612&w=0&k=20&c=UoAcNzbbDx2ybqoEZWBaxBdy73W2NN3km8MKSci0cHk=", "https://media.istockphoto.com/id/157587362/photo/detailed-close-up-of-sliced-grain-bread-on-white-background.jpg?s=612x612&w=0&k=20&c=nr5f0Mb3Dx9RP_LmKKwlo6IlzDebfIdCbnERsnoSG94="],
+        "price": 10.99,
+        "stock": 30,
+        "unit": "piece"
+      },
+      {
+        "id": 111,
+        "name": "Croissant",
+        "description": "Flaky and buttery croissants",
+        "images": ["https://media.istockphoto.com/id/1372262769/photo/delicious-fresh-croissant-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=6VEBNPfz35PlkSypIyAVpG_gsct4Z4LKn7-aRZcn3FM=", "https://media.istockphoto.com/id/147987270/photo/fresh-baked-croissants.jpg?s=612x612&w=0&k=20&c=7fEdqVxlvRK80hpGGEMGyw-_Cpi1ipb1D2rTim5yTuI=", "https://media.istockphoto.com/id/1372262769/photo/delicious-fresh-croissant-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=6VEBNPfz35PlkSypIyAVpG_gsct4Z4LKn7-aRZcn3FM=", "https://media.istockphoto.com/id/147987270/photo/fresh-baked-croissants.jpg?s=612x612&w=0&k=20&c=7fEdqVxlvRK80hpGGEMGyw-_Cpi1ipb1D2rTim5yTuI="],
+        "price": 71.99,
+        "stock": 20,
+        "unit": "piece"
+      },
+      {
+        "id": 112,
+        "name": "Muffin",
+        "description": "Sweet and moist muffins",
+        "images": ["https://media.istockphoto.com/id/516688047/photo/homemade-autumn-pumpkin-muffin.jpg?s=612x612&w=0&k=20&c=wbzrNN3oX-F4Q1rZJAeDLH9EKJfnHk9yyaJqIJbkV_U=", "https://media.istockphoto.com/id/980384212/photo/tasty-muffin-cake-isolated-on-white.jpg?s=612x612&w=0&k=20&c=AZfqOLGJDZq6PKjmYem_KXmOSrXC_fzU_Kscne5ARDk=", "https://media.istockphoto.com/id/516688047/photo/homemade-autumn-pumpkin-muffin.jpg?s=612x612&w=0&k=20&c=wbzrNN3oX-F4Q1rZJAeDLH9EKJfnHk9yyaJqIJbkV_U=", "https://media.istockphoto.com/id/980384212/photo/tasty-muffin-cake-isolated-on-white.jpg?s=612x612&w=0&k=20&c=AZfqOLGJDZq6PKjmYem_KXmOSrXC_fzU_Kscne5ARDk="],
+        "price": 20.49,
+        "stock": 25,
+        "unit": "piece"
+      }
+    ]
+  }
+  
