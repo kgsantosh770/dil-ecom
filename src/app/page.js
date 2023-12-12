@@ -13,7 +13,6 @@ export default function Home() {
           headline="Good food Good Life"
           description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua."
-          btnText="Order Now"
           images={bannerImages}
         />
         <ShopSection
