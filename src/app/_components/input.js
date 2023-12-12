@@ -18,6 +18,7 @@ const Input = (props) => {
                     type={props.type}
                     placeholder={props.placeholder}
                     maxLength={props.maxLength ?? ''}
+                    ref={props.innerRef}
                 />
             </div >
 
