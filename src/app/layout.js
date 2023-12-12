@@ -1,6 +1,7 @@
 import { Plus_Jakarta_Sans } from 'next/font/google'
 import Header from './_components/header'
 import './globals.css'
+import { Providers } from './_redux/provider'
 
 const plusJakartaSans = Plus_Jakarta_Sans({ subsets: ['latin'] })
 
@@ -14,7 +15,9 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={plusJakartaSans.className}>
         <Header />
-        {children}
+        <Providers>
+          {children}
+        </Providers>
       </body>
     </html>
   )

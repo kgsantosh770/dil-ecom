@@ -4,7 +4,7 @@ const Button = (props) => {
     return (
         <button
             className={`${btnStyle} ${props.variant !== 'outline' ? filledVariantStyle : ''} ${props.className}`}
-            onClick={props.handleClick}
+            onClick={props.onClick}
         >
             {props.text}
         </button>

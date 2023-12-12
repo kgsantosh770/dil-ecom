@@ -1,12 +1,24 @@
 'use client';
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Button from "../../_components/button";
 import { getProduct } from '@/app/_utils/getters';
+import { useSelector, useDispatch } from "react-redux";
+import { add, remove } from '../../_redux/features/cartSlice';
 
 const Product = ({ params }) => {
+    const cart = useSelector((state) => state.cart);
+    const dispatch = useDispatch();
     const [quantity, setQuantity] = useState(1);
     const product = getProduct(params.productid);
+    
+    useEffect(() => {
+        const cartProduct = cart.products.find(cartProduct => cartProduct.id === product.id);
+        const cartQuantity = cartProduct?.quantity;
+        if (cartQuantity) setQuantity(cartQuantity);
+        else setQuantity(1);
+    }, [cart])
+
 
     const handleQuantityClick = (type) => {
         if (quantity <= 1 && type === 'decrement' || quantity >= 10 && type === 'increment')
@@ -42,7 +54,20 @@ const Product = ({ params }) => {
                         <button className="relative -mt-1" onClick={() => handleQuantityClick('increment')}>+</button>
                     </div>
                 </div>
-                <Button text={`Add to Cart - ₹${(quantity * parseFloat(product.price)).toFixed(2)}`} className="block w-full mt-8 lg:mt-12 mx-auto" />
+                {
+                    cart.products.find(cartProduct => cartProduct.id === product.id) ?
+                        <Button
+                            onClick={() => dispatch(remove(product.id))}
+                            text={`Remove from Cart`}
+                            className="block w-full mt-8 lg:mt-12 mx-auto"
+                        /> :
+                        <Button
+                            onClick={() => dispatch(add({ ...product, quantity }))}
+                            text={`Add to Cart - ₹${(quantity * parseFloat(product.price)).toFixed(2)}`}
+                            className="block w-full mt-8 lg:mt-12 mx-auto"
+                        />
+
+                }
                 <p className="text-xs mt-2 text-center">Free Standard Shipping</p>
             </div>
         </div>
