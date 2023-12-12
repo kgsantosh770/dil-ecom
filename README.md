@@ -41,7 +41,3 @@ This project is a small ecom food application developed using Next.js, TailwindC
 - This project is still under development, so expect changes and improvements in the future.
 - The current focus is on building a basic ecom food application with cart functionality.
 - Additional features will be added as development progresses.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
