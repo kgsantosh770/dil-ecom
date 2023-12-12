@@ -10,7 +10,7 @@ const Payment = () => {
     const next10Years = Array.from({ length: 20 }, (_, index) => currentYear + index + 1);
 
     return (
-        <div className='px-4 py-6 lg:max-w-2xl'>
+        <div className='px-4 py-6 lg:max-w-xl lg:mx-auto'>
             <h2 className='text-2xl font-bold'>Checkout</h2>
             <div className='flex items-center gap-3 mt-3'>
                 <span>Address</span>
@@ -30,7 +30,7 @@ const Payment = () => {
                 <Input className="w-full" type="tel" maxLength={3} placeholder="CVV" />
             </form>
             <Link href="/payment/success">
-                <Button text="Pay" className="block mx-auto mt-8 w-full"/>
+                <Button text="Pay" className="block mx-auto mt-8 w-full lg:max-w-sm"/>
             </Link>
         </div>
     )
