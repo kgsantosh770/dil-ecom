@@ -30,8 +30,9 @@ export const cartSlice = createSlice({
     reducers: {
         add: (state, action) => { addToCart(state, action.payload) },
         remove: (state, action) => { removeFromCart(state, action.payload) },
+        removeAll: () => initialState,
     }
 })
 
-export const { add, remove } = cartSlice.actions;
+export const { add, remove, removeAll } = cartSlice.actions;
 export default cartSlice.reducer;

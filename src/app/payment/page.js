@@ -3,6 +3,8 @@ import { useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Input from "../_components/input"
 import Button from "../_components/button";
+import { useDispatch } from "react-redux";
+import { removeAll } from "../_redux/features/cartSlice";
 
 const Payment = () => {
     const months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12'];
@@ -13,6 +15,7 @@ const Payment = () => {
     const cardCvvRef = useRef(null);
     const [error, setError] = useState(false);
     const router = useRouter();
+    const dispatch = useDispatch();
 
     const handlePay = () => {
         setError(false);
@@ -20,7 +23,7 @@ const Payment = () => {
         const cardNumber = cardNumberRef.current?.value;
         const cardCvv = cardCvvRef.current?.value;
         if(cardName && cardNumber && cardCvv) {
-            setError(false);
+            dispatch(removeAll());
             router.push('/payment/success');
         }
         else setError(true);

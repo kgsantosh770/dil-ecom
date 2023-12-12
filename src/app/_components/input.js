@@ -3,8 +3,8 @@ const Input = (props) => {
         (
             <select className={`border border-black px-2 py-3 ${props.className} ${props.value === '' ? 'text-grey' : ''}`}>
                 {
-                    props.options.map((option) => (
-                        <option className="text-black" value={option}>{option}</option>
+                    props.options.map((option,index) => (
+                        <option key={index} className="text-black" value={option}>{option}</option>
                     ))
                 }
             </select>
