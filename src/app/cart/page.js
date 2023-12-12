@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { useSelector } from "react-redux"
 import Button from "../_components/button";
+import Link from "next/link";
 
 const Cart = () => {
     const cart = useSelector((state) => state.cart);
@@ -43,7 +44,9 @@ const Cart = () => {
                     </table>
                 </div>
             </div>
-            <Button text="Proceed to Payment" className="mx-auto block mt-8" />
+            <Link href='/payment'>
+                <Button text="Proceed to Payment" className="mx-auto block mt-8" />
+            </Link>
             <p className="text-xs mt-2 text-center">Development phase: only direct payment</p>
         </section>
     )
