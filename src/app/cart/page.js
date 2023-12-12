@@ -26,28 +26,41 @@ const Cart = () => {
                         ))
                     }
                 </div>
-                <div className="text-lg mt-5 lg:mt-0 lg:mr-36">
-                    <p className="text-xl font-bold">Order Summary:</p>
-                    <table className="table-auto w-full">
-                        <tr>
-                            <td className="pt-2">SubTotal:</td>
-                            <td align="right">₹{cart.total.toFixed(2)}</td>
-                        </tr>
-                        <tr className="mt-4 border-b">
-                            <td className="pt-2 py-4">Shipping: <span className="text-sm">(Free Shipping)</span></td>
-                            <td align="right">₹0</td>
-                        </tr>
-                        <tr className="mt-4">
-                            <td className="pt-2">Total:</td>
-                            <td align="right">₹{cart.total.toFixed(2)}</td>
-                        </tr>
-                    </table>
-                </div>
+                {
+                    cart.products.length > 0 && (
+                        <div className="text-lg mt-5 lg:mt-0 lg:mr-36">
+                            <p className="text-xl font-bold">Order Summary:</p>
+                            <table className="table-auto w-full">
+                                <tr>
+                                    <td className="pt-2">SubTotal:</td>
+                                    <td align="right">₹{cart.total.toFixed(2)}</td>
+                                </tr>
+                                <tr className="mt-4 border-b">
+                                    <td className="pt-2 py-4">Shipping: <span className="text-sm">(Free Shipping)</span></td>
+                                    <td align="right">₹0</td>
+                                </tr>
+                                <tr className="mt-4">
+                                    <td className="pt-2">Total:</td>
+                                    <td align="right">₹{cart.total.toFixed(2)}</td>
+                                </tr>
+                            </table>
+                        </div>
+                    )
+                }
             </div>
-            <Link href='/payment'>
-                <Button text="Proceed to Payment" className="mx-auto block mt-8" />
-            </Link>
-            <p className="text-xs mt-2 text-center">Development phase: only direct payment</p>
+            {
+                cart.products.length > 0 ? (
+                    <>
+                        <Link href='/payment'>
+                            <Button text="Proceed to Payment" className="mx-auto block mt-8" />
+                        </Link>
+                        <p className="text-xs mt-2 text-center">Development phase: only direct payment</p>
+                    </>
+                ) :
+                (
+                    <p><span className="text-2xl">No items it cart 👉</span><Link href='/' className="text-primary text-md underline">Order Now</Link></p>
+                )
+            }
         </section>
     )
 }
