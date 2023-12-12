@@ -32,7 +32,7 @@ const Header = () => {
                     <a href="#">Your Orders</a>
                 </li>
                 <li className="mb-6 lg:mb-0 text-lg lg:text-sm font-semibold lg:hover:text-primary">
-                    <a href="#">Cart</a>
+                    <Link href="/cart">Cart</Link>
                 </li>
                 <div className="mb-6 lg:mb-0 w-full lg:w-0 px-4 lg:p-0 border"></div>
                 <li className="mb-6 lg:mb-0 text-lg lg:text-sm font-semibold lg:hover:text-primary">
